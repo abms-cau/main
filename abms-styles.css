@@ -431,7 +431,7 @@
   .pubgroup.second{margin-top:64px;}
 
   /* ---------- JOIN ---------- */
-  .join{background:var(--off);border-top:1px solid var(--line);}
+    .join{background:var(--off);border-top:1px solid var(--line);}
   .jgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:start;}
   .jlist{list-style:none;margin:0;padding:0;}
   .jlist li{
@@ -542,6 +542,7 @@
       border-bottom:1px solid rgba(255,255,255,.22);}
     .bandcontact .bc:last-child{border-bottom:none;}
   }
+
 
   /* ---------- CTA BAND ---------- */
   .band{

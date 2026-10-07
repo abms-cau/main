@@ -5,7 +5,7 @@
     --blue-soft:#E7EFFB;
     --red:#D0021B;
     --white:#FFFFFF;
-    --off:#F6F8FC;
+    --off:#EAF0F8;
     --gray:#56657C;
     --line:#DFE5EF;
   }
@@ -202,7 +202,7 @@
   }
 
   /* ---------- FOCUS CARDS ---------- */
-  .focus{background:var(--off);}
+  .focus{background:linear-gradient(180deg,#F1F5FB 0%,#E6EDF7 100%);}
   .fgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
   .fcard{
     background:var(--white);
@@ -218,10 +218,10 @@
     aspect-ratio:2/1;
     display:flex;align-items:center;justify-content:center;
     border-bottom:1px solid var(--line);
-    background-color:#EFF4FC;
+    background-color:#FAFCFF;
     background-image:
-      radial-gradient(circle, rgba(62,123,214,.13) 1px, transparent 1.2px),
-      linear-gradient(150deg, #F2F6FD 0%, #E1EAF8 100%);
+      radial-gradient(circle, rgba(62,123,214,.11) 1px, transparent 1.2px),
+      linear-gradient(150deg, #FCFDFF 0%, #EFF4FC 100%);
     background-size:14px 14px, 100% 100%;
     overflow:hidden;
   }
@@ -433,7 +433,7 @@
   .pubgroup.second{margin-top:64px;}
 
   /* ---------- JOIN ---------- */
-    .join{background:var(--off);border-top:1px solid var(--line);}
+    .join{background:linear-gradient(180deg,#E6EDF7 0%,#EEF3FA 100%);border-top:1px solid #DCE4F0;}
   .jgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:start;}
   .jlist{list-style:none;margin:0;padding:0;}
   .jlist li{

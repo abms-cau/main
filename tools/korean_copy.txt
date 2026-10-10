@@ -274,13 +274,15 @@ in vitro 모델
 > Microphysiological systems that reconstruct the human tissue microenvironment.
 인체 조직의 미세환경을 근사가 아닌 재구성의 방식으로 구현하는 미세생리시스템.
 
-[res.01.caption]
-> Reconstructing the tumor microenvironment in a microphysiological system: human cell sources, a tunable ECM, and controlled vascular, interstitial and lymphatic flow.
-미세생리시스템에서의 종양미세환경 재구성 — 인체 유래 세포, 조절 가능한 ECM, 그리고 혈관·간질·림프 유동의 제어.
+# 아래 두 항목은 Research 01 그림이 다시 들어올 때 쓰입니다.
+# 지금은 그림 대신 아이콘이 들어가 있어 사용되지 않습니다.
+# [res.01.caption]
+# > Reconstructing the tumor microenvironment in a microphysiological system: human cell sources, a tunable ECM, and controlled vascular, interstitial and lymphatic flow.
+# 미세생리시스템에서의 종양미세환경 재구성 — 인체 유래 세포, 조절 가능한 ECM, 그리고 혈관·간질·림프 유동의 제어.
 
-[res.01.alt]
-> Diagram comparing the tumor microenvironment in vivo with a microphysiological system in vitro, and the three building blocks used to rebuild it: human cell sources, ECM/matrix, and controlled flow.
-생체 내 종양미세환경과 체외 미세생리시스템을 비교하고, 이를 재현하는 세 가지 구성 요소(인체 유래 세포, ECM·기질, 제어된 유동)를 제시한 도식.
+# [res.01.alt]
+# > Diagram comparing the tumor microenvironment in vivo with a microphysiological system in vitro, and the three building blocks used to rebuild it: human cell sources, ECM/matrix, and controlled flow.
+# 생체 내 종양미세환경과 체외 미세생리시스템을 비교하고, 이를 재현하는 세 가지 구성 요소(인체 유래 세포, ECM·기질, 제어된 유동)를 제시한 도식.
 
 
 # ---- 02 ----

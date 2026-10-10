@@ -465,6 +465,63 @@
     .nitem h3{font-size:17px;}
   }
 
+  /* ---------- FIGURE + LIGHTBOX ---------- */
+  .pvis.figure{
+    background:var(--white);
+    padding:0;border:1px solid var(--line);
+    aspect-ratio:auto;
+  }
+  .figbtn{
+    display:block;width:100%;padding:0;border:0;margin:0;
+    background:none;cursor:zoom-in;line-height:0;
+    border-radius:10px;overflow:hidden;position:relative;
+  }
+  .figbtn img{width:100%;height:auto;display:block;}
+  .figbtn .zoom{
+    position:absolute;right:10px;bottom:10px;
+    display:flex;align-items:center;gap:6px;
+    background:rgba(10,31,68,.72);color:#fff;
+    font-size:11.5px;font-weight:700;letter-spacing:.04em;
+    padding:5px 10px;border-radius:20px;
+    opacity:0;transition:opacity .18s;
+  }
+  .figbtn:hover .zoom,.figbtn:focus-visible .zoom{opacity:1;}
+  .figcap{
+    font-size:13px;line-height:1.6;color:var(--gray);
+    margin-top:10px;
+  }
+
+  .lightbox{
+    position:fixed;inset:0;z-index:200;
+    display:none;align-items:center;justify-content:center;
+    background:rgba(8,18,38,.88);
+    padding:32px;
+  }
+  .lightbox.open{display:flex;}
+  .lightbox img{
+    max-width:100%;max-height:88vh;
+    width:auto;height:auto;
+    border-radius:8px;background:#fff;
+    box-shadow:0 24px 70px rgba(0,0,0,.45);
+  }
+  .lightbox .lb-close{
+    position:absolute;top:18px;right:22px;
+    width:42px;height:42px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.35);
+    background:rgba(255,255,255,.10);color:#fff;
+    font-size:22px;line-height:1;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .lightbox .lb-close:hover{background:rgba(255,255,255,.2);}
+  .lightbox .lb-cap{
+    position:absolute;left:0;right:0;bottom:16px;
+    text-align:center;color:#C3D2EC;font-size:13px;padding:0 32px;
+  }
+  @media(max-width:820px){
+    .lightbox{padding:16px;}
+    .lightbox .lb-close{top:10px;right:12px;}
+  }
+
   /* ---------- JOIN ---------- */
     .join{background:var(--off);border-top:1px solid var(--line);}
   .jgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:start;}

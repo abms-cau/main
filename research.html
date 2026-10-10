@@ -70,15 +70,25 @@
           data that anchors everything downstream.
         </p>
       </div>
-      <div class="pvis"><svg width="54%" viewBox="0 0 150 100" fill="none">
-          <rect x="12" y="16" width="126" height="68" rx="10" stroke="#3E7BD6" stroke-width="2.6"/>
-          <path d="M12 50 H40 M110 50 H138" stroke="#3E7BD6" stroke-width="2.2" stroke-linecap="round"/>
-          <circle cx="56" cy="50" r="13" stroke="#3E7BD6" stroke-width="2.4"/>
-          <circle cx="94" cy="50" r="13" stroke="#3E7BD6" stroke-width="2.4"/>
-          <path d="M69 50 H81" stroke="#3E7BD6" stroke-width="2.2"/>
-          <circle cx="56" cy="50" r="5.5" fill="#D0021B"/>
-          <circle cx="94" cy="50" r="5.5" fill="#D0021B" opacity=".55"/>
-        </svg></div>
+      <div class="pvis figure">
+        <button type="button" class="figbtn"
+                data-full="assets/research-01-in-vitro-model-full.webp"
+                data-cap="Reconstructing the tumor microenvironment in a microphysiological system: human cell sources, a tunable ECM, and controlled vascular, interstitial and lymphatic flow.">
+          <picture>
+            <source srcset="assets/research-01-in-vitro-model.webp" type="image/webp">
+            <img src="assets/research-01-in-vitro-model.png" width="1000" height="626" loading="lazy"
+                 alt="Diagram comparing the tumor microenvironment in vivo with a microphysiological system in vitro, and the three building blocks used to rebuild it: human cell sources, ECM/matrix, and controlled flow.">
+          </picture>
+          <span class="zoom">
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M10.8 10.8 L14.5 14.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M5 7h4M7 5v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+            Click to enlarge
+          </span>
+        </button>
+      </div>
     </div>
 
     <div class="prow">
@@ -166,6 +176,45 @@
     <a class="btn" href="mailto:hrmoon@cau.ac.kr?subject=ABMS%20Lab%20Inquiry">Contact the Lab</a>
   </div>
 </section>
+
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged figure">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <img id="lbImg" src="" alt="">
+  <p class="lb-cap" id="lbCap"></p>
+</div>
+
+<script>
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),
+      cap=document.getElementById('lbCap'),closeBtn=document.getElementById('lbClose'),last=null;
+  function open(btn){
+    last=btn;
+    img.src=btn.dataset.full;
+    var im=btn.querySelector('img');
+    img.alt=im?im.alt:'';
+    cap.textContent=btn.dataset.cap||'';
+    lb.classList.add('open');
+    document.body.style.overflow='hidden';
+    closeBtn.focus();
+  }
+  function close(){
+    lb.classList.remove('open');
+    document.body.style.overflow='';
+    img.src='';
+    if(last){last.focus();last=null;}
+  }
+  document.querySelectorAll('.figbtn').forEach(function(b){
+    b.addEventListener('click',function(){open(b);});
+  });
+  closeBtn.addEventListener('click',close);
+  lb.addEventListener('click',function(e){if(e.target===lb)close();});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&lb.classList.contains('open'))close();
+  });
+})();
+</script>
 
 <!-- ============ FOOTER ============ -->
 <footer>

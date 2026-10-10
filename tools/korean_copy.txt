@@ -1,0 +1,370 @@
+# ===========================================================================
+#  ABMS Lab — 한글 페이지 문구
+# ---------------------------------------------------------------------------
+#  이 파일만 고치면 됩니다. index-ko.html / research-ko.html / news-ko.html 은
+#  여기서 자동 생성되므로 직접 수정하지 마세요 (다시 만들 때 덮어씁니다).
+#
+#  읽는 법
+#    [슬롯.이름]   ← 건드리지 마세요
+#    > 영문 원문    ← 참고용. 건드리지 마세요
+#    한글 문구      ← 이 줄만 고치시면 됩니다
+#
+#  규칙
+#    · 한글 문구를 비워 두면 그 자리는 영문이 그대로 나옵니다.
+#    · 여러 줄로 써도 됩니다. 줄바꿈을 강제하려면 <br> 를 쓰세요.
+#    · <em>...</em> 는 기울임, &amp; 는 & 기호입니다. 그대로 두세요.
+#    · 다 고치셨으면 저장하고 저에게 알려주시면 반영·배포하겠습니다.
+# ===========================================================================
+
+
+# ---------------------------------------------------------------------------
+#  메뉴 · 공통 (모든 한글 페이지)
+# ---------------------------------------------------------------------------
+
+[nav.home]
+> Home
+홈
+
+[nav.research]
+> Research
+연구
+
+[nav.people]
+> People
+구성원
+
+[nav.publications]
+> Publications
+논문
+
+[nav.news]
+> News
+소식
+
+[nav.join]
+> Join Us
+함께하기
+
+
+# ---------------------------------------------------------------------------
+#  하단 모집 배너 (모든 페이지 공통)
+# ---------------------------------------------------------------------------
+
+[band.heading]
+> We are looking for our next collaborators
+함께 연구할 분을 찾고 있습니다
+
+[band.body]
+> Undergraduate interns, master's and doctoral candidates — if the work here interests you, reach out directly.
+학부 인턴, 석사 및 박사 과정 지원자를 환영합니다. 연구에 관심이 있다면 언제든 연락 주시기 바랍니다.
+
+[band.button]
+> Contact the Lab
+연구실에 연락하기
+
+
+# ---------------------------------------------------------------------------
+#  푸터
+# ---------------------------------------------------------------------------
+
+[footer.blurb]
+> Advanced Biomicrosystems Laboratory — School of Integrative Engineering, Chung-Ang University.
+첨단 바이오마이크로시스템 연구실 — 중앙대학교 융합공학부
+
+[footer.explore]
+> Explore
+바로가기
+
+[footer.contact]
+> Contact
+연락처
+
+[footer.office]
+> Bldg 305, Rm 405
+305관 405호
+
+[footer.city]
+> Seoul, Republic of Korea
+서울특별시 동작구
+
+[footer.copyright]
+> © 2026 ABMS Lab, Chung-Ang University
+© 2026 ABMS Lab, 중앙대학교
+
+[footer.labname]
+> Advanced Biomicrosystems Laboratory
+첨단 바이오마이크로시스템 연구실
+
+
+# ===========================================================================
+#  홈 (index-ko.html)
+# ===========================================================================
+
+[home.title]
+> ABMS Lab — Advanced Biomicrosystems Laboratory
+ABMS Lab — 첨단 바이오마이크로시스템 연구실
+
+[home.eyebrow]
+> Advanced Biomicrosystems Laboratory
+첨단 바이오마이크로시스템 연구실
+
+[home.h1]
+> Engineering <em>Biomicrosystems</em><br>for Human-Relevant Biology
+인체를 재현하는<br><em>미세생리시스템</em> 공학
+
+[home.sub]
+> We develop next-generation biomicrosystems through innovative engineering platforms, enabling translation to human physiology, pathology, and advanced biomedical applications.
+미세유체 공학과 오가노이드 기술을 결합하여 인체의 생리와 병리를 체외에서 구현하고,
+이를 약물 평가와 정밀의료로 연결합니다.
+
+[home.cta]
+> Explore Our Research
+연구 소개
+
+
+# ---- 핵심 연구 영역 ----
+
+[home.cap.label]
+> Core Capabilities
+핵심 연구 영역
+
+[home.cap.h2]
+> The expertise behind the platform
+연구의 기반이 되는 네 가지 기술
+
+[home.cap.lede]
+> Four areas of technical depth that the work above draws on, spanning device fabrication through to computational analysis.
+소자 제작에서 전산 해석에 이르기까지, 연구실의 모든 연구가 공유하는 기술적 토대입니다.
+
+[home.cap1.h3]
+> Microfluidic bioengineering
+미세유체 바이오공학
+
+[home.cap1.p]
+> Device design and microfabrication tailored to the tissue being modeled, not adapted from off-the-shelf plates.
+기성 배양 플레이트를 변형하지 않고, 모사 대상 조직에 맞추어 소자를 설계하고 미세가공합니다.
+
+[home.cap2.h3]
+> Tumor microenvironment modeling
+종양미세환경 모델링
+
+[home.cap2.p]
+> Reconstructing the physical and cellular context in which tumors actually behave.
+종양의 실제 거동을 결정하는 물리적·세포적 환경을 체외에서 재구성합니다.
+
+[home.cap3.h3]
+> Biosensing &amp; readout
+바이오센싱 및 신호 계측
+
+[home.cap3.p]
+> On-chip sensors that turn continuous biological activity into analyzable signal.
+칩에 집적한 센서를 통해 생물학적 활성을 연속적인 분석 가능 신호로 변환합니다.
+
+[home.cap4.h3]
+> Standardization &amp; precision medicine
+데이터 표준화와 정밀의료
+
+[home.cap4.p]
+> Machine learning applied to making organoid and organ-on-chip data comparable across sources.
+기계학습을 적용하여 오가노이드 및 오간칩 데이터를 출처와 무관하게 비교 가능하도록 표준화합니다.
+
+
+# ---- 함께하기 ----
+
+[home.join.label]
+> Join Us &amp; Contact
+함께하기 · 연락처
+
+[home.join.h2]
+> The ABMS Lab welcomes motivated, passionate, and committed students.
+ABMS 연구실은 열정과 끈기를 지닌 학생을 환영합니다.
+
+[home.join.kr]
+> 첨단 바이오마이크로시스템 연구실에서 함께 연구할 학부 인턴 및 대학원생을 모집합니다.
+첨단 바이오마이크로시스템 연구실에서 함께 연구할 학부 인턴 및 대학원생을 모집합니다.
+
+[home.join.en]
+> Opportunities are available for undergraduate research interns and prospective M.S. and Ph.D. students. Interested students are welcome to contact Prof. Moon for more information.
+학부 연구 인턴과 석사·박사 과정 진학 예정자 모두 지원할 수 있습니다.<br>
+관심 있는 학생은 문혜란 교수에게 연락하여 자세한 내용을 문의하시기 바랍니다.
+
+[home.contact.label]
+> Contact
+연락처
+
+[home.contact.h3]
+> Open to motivated students at every stage
+모든 단계의 학생에게 열려 있습니다
+
+[home.contact.pi.k]
+> Principal Investigator
+책임교수
+
+[home.contact.pi.v]
+> Prof. Hye-ran Moon
+문혜란 교수
+
+[home.contact.email.k]
+> Email
+이메일
+
+[home.contact.office.k]
+> Office
+연구실
+
+[home.contact.office.v]
+> Bldg 305, Rm 405
+305관 405호
+
+[home.contact.inst.k]
+> Institution
+소속
+
+[home.contact.inst.v]
+> Chung-Ang University
+중앙대학교
+
+[home.contact.button]
+> Send an Inquiry
+문의 메일 보내기
+
+
+# ===========================================================================
+#  연구 (research-ko.html)
+# ===========================================================================
+
+[res.title]
+> Research — ABMS Lab
+연구 — ABMS Lab
+
+[res.crumb]
+> Research
+연구
+
+[res.eyebrow]
+> Research
+연구
+
+[res.h1]
+> From engineered tissue to standardized data
+조직 모델에서 표준화된 데이터까지
+
+[res.sub]
+> We design the device, culture the tissue inside it, instrument it with sensors, and standardize the resulting measurements — physiologically faithful in vitro models on one side, and the AI-based methods that make their data comparable on the other.
+소자를 설계하고, 그 안에서 조직을 배양하며, 센서로 계측하고, 그 측정값을 표준화합니다.
+한편에는 생리학적으로 충실한 in vitro 모델이, 다른 한편에는 그 데이터를 비교 가능하게
+만드는 AI 기반 방법론이 있습니다.
+
+[res.hint]
+> Select a topic to read more.
+주제를 선택하면 자세한 내용을 볼 수 있습니다.
+
+
+# ---- 01 ----
+
+[res.01.cat]
+> In vitro models
+in vitro 모델
+
+[res.01.h3]
+> Advanced <em>in vitro</em> models
+차세대 <em>in vitro</em> 모델
+
+[res.01.lede]
+> Microphysiological systems that reconstruct the human tissue microenvironment.
+인체 조직의 미세환경을 근사가 아닌 재구성의 방식으로 구현하는 미세생리시스템.
+
+[res.01.caption]
+> Reconstructing the tumor microenvironment in a microphysiological system: human cell sources, a tunable ECM, and controlled vascular, interstitial and lymphatic flow.
+미세생리시스템에서의 종양미세환경 재구성 — 인체 유래 세포, 조절 가능한 ECM, 그리고 혈관·간질·림프 유동의 제어.
+
+[res.01.alt]
+> Diagram comparing the tumor microenvironment in vivo with a microphysiological system in vitro, and the three building blocks used to rebuild it: human cell sources, ECM/matrix, and controlled flow.
+생체 내 종양미세환경과 체외 미세생리시스템을 비교하고, 이를 재현하는 세 가지 구성 요소(인체 유래 세포, ECM·기질, 제어된 유동)를 제시한 도식.
+
+
+# ---- 02 ----
+
+[res.02.cat]
+> Sensing
+센싱
+
+[res.02.h3]
+> Sensor-integrated organoid-on-a-chip
+센서 집적 오가노이드 온 칩
+
+[res.02.lede]
+> Biosensors built into the device for continuous, real-time readout.
+소자 내부에 집적한 바이오센서를 통한 연속적 실시간 계측.
+
+
+# ---- 03 ----
+
+[res.03.cat]
+> Mechanobiology
+메카노바이올로지
+
+[res.03.h3]
+> Mechanobiology
+메카노바이올로지
+
+[res.03.lede]
+> How mechanical cues — flow, pressure, matrix stiffness — shape cell behaviour.
+유동, 압력, 기질 강성 등 역학적 신호가 세포 거동을 결정하는 기전의 규명.
+
+
+# ---- 04 ----
+
+[res.04.cat]
+> Data &amp; AI
+데이터와 AI
+
+[res.04.h3]
+> Data standardization with AI/ML
+AI/ML 기반 데이터 표준화
+
+[res.04.lede]
+> Making organoid and organ-chip data comparable across labs and devices.
+연구실과 장비가 달라도 오가노이드·오간칩 데이터를 비교할 수 있도록 하는 표준화.
+
+[res.zoom]
+> Click to enlarge
+클릭하면 확대됩니다
+
+
+# ===========================================================================
+#  소식 (news-ko.html)
+# ===========================================================================
+
+[news.title]
+> News — ABMS Lab
+소식 — ABMS Lab
+
+[news.crumb]
+> News
+소식
+
+[news.eyebrow]
+> News
+소식
+
+[news.h1]
+> Announcements and updates
+공지 및 소식
+
+[news.1.date]
+> September 2025
+2025년 9월
+
+[news.1.tag]
+> Lab
+연구실
+
+[news.1.h3]
+> The ABMS Lab opens at Chung-Ang University
+중앙대학교에 ABMS 연구실이 개소하였습니다
+
+[news.1.body]
+> The Advanced Biomicrosystems Laboratory has officially opened in the School of Integrative Engineering at Chung-Ang University, led by Prof. Hye-ran Moon.
+첨단 바이오마이크로시스템 연구실이 중앙대학교 융합공학부에 공식 개소하였습니다.
+책임교수는 문혜란 교수입니다.
